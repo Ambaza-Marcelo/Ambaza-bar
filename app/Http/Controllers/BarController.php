@@ -60,7 +60,7 @@ class BarController extends Controller
      */
     public function show($bar_id)
     {
-      $admins = User::byBar($bar_id)->where('role','admin')->get();
+      $admins = User::where('role','admin')->get();
       return view('bar.admin-list',compact('admins'));
     }
 

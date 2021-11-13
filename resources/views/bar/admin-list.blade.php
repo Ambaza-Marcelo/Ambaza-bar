@@ -13,7 +13,7 @@
             @endif
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('hotels.index') }}"> @lang('Manage hotel')</a>
+                    <a class="nav-link" href="{{ route('bars.index') }}"> @lang('Manage Bar')</a>
                 </li>
             </ul>
         </div>

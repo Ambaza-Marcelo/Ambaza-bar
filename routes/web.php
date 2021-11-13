@@ -247,7 +247,7 @@ Route::middleware(['auth', 'master'])->group(function () {
     Route::post('register/admin', 'UserController@storeAdmin');
     Route::get('master/activate-admin/{id}', 'UserController@activateAdmin');
     Route::get('master/deactivate-admin/{id}', 'UserController@deactivateAdmin');
-    Route::get('bar/admin-list/{bar_id}', 'HotelController@show');
+    Route::get('bar/admin-list/{bar_id}', 'BarController@show');
     Route::post('bars-store','BarController@store')->name('bars.store');
     Route::get('bars-create','BarController@create')->name('bars.create');
 
