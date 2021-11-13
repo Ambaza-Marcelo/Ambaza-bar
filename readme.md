@@ -45,7 +45,7 @@ AMBAZA BAR MANAGEMENT SYSTEM
 	<p>-DB_USERNAME=root</p>
 	<p>-DB_PASSWORD=</p>
 
- step3.
+ <h2>step 3 :</h2>
  	-go to database file in config folder
  	'connections' => [
 
