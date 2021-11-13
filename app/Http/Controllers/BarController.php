@@ -14,7 +14,11 @@ class BarController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    
+    public function index() {
+      $bars = Bar::orderBy('created_at', 'desc')->paginate(5);
+
+      return view('bars.index', compact('bars'));
+    }
 
     public function create(){
         return view('bars.form');
