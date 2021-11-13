@@ -1,27 +1,10 @@
-""          ""				 ""      """ ""	    """"""""    """""""""""     ""             """""""""
-"" ""	 "" ""		"""""""""""			""	   ""           ""				""             ""     ""
-""	 ""	""	""		""     """"			""	   ""			""				""             ""     ""
-""			""		""     """"			""	   ""			""""""""""		""			   ""     ""
-""			""		""     """"			""	   ""			""				""             ""     ""
-""			""		""     """"			""	   ""	   		""				""             ""     ""
-""			""		"""""""""""""		""		 """"""		""""""""""	    """""""""""    """""""""
 
 
-
-
-HOTELS,RESTAURANT,BARS,SUPERMARKET,STOCK MANAGEMENT SYSTEM
+AMBAZA BAR MANAGEMENT SYSTEM
 
 				#AMBAZA MARCELLIN
 
 
-
-''    ''    ''            ''       """"""
-''	  ''    '''	         '''	""
-''    '' 	''	''	   '' ''	""
-''""""'' 	''		""	  ''		"""""
-''    ''  	''            ''			""
-''    ''	''            ''	""		""
-''    ''	''            ''	  """"
 
 					FONCTIONNALITES
 					'''''''''''''''
@@ -30,24 +13,13 @@ HOTELS,RESTAURANT,BARS,SUPERMARKET,STOCK MANAGEMENT SYSTEM
 			3.gestion des ventes
 			3.gestion des clients
 			4.gestion des depenses
-			5.gestion des chambres
-			6.gestion des reservations
-			7.gestion des chambres
-			8.prise des commandes en ligne
-			9.Alerte Stock
-			10.Suivi du stock
-			11.Etablissement d'un ticket de vente apres consommation
-			12.Gestion des employees
-			13.gestion des presences des employees
-			14.gestion des rapports
-			15.gestion des conges
-			16.Statistiques du Systeme
-
-
-N.B:
-		-possibilite d'acceder a distance via PC ,smartPhone ,etc.
-		-possibilite de gerer plusieurs choses en meme temps
-
+			5.prise des commandes en ligne
+			6.Alerte Stock
+			7.Suivi du stock
+			8.Etablissement d'un ticket de vente apres consommation
+			9.Gestion des employees
+			10.gestion des rapports
+			11.Statistiques du Systeme
 
 
 
