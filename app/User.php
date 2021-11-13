@@ -27,7 +27,7 @@ class User extends Model implements
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'role', 'code','active', 'verified', 'hotel_id', 'address', 'about', 'phone_number', 'blood_group', 'nationality', 'gender',
+        'name', 'email', 'password', 'role', 'code','active', 'verified', 'bar_id', 'address', 'about', 'phone_number', 'blood_group', 'nationality', 'gender','commune','province','recent_address','level','no_mifp','salary','birthday_date','place'
     ];
 
     /**
@@ -44,9 +44,9 @@ class User extends Model implements
         return $q->where('role', 'customer');
     }
 
-    public function hotel()
+    public function bar()
     {
-        return $this->belongsTo('App\Hotel');
+        return $this->belongsTo('App\Bar');
     }
     
     public function hasRole(string $role): bool

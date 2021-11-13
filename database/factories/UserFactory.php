@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Str;
 use App\User;
-use App\Hotel;
+use App\Bar;
 use Faker\Generator as Faker;
 
 /*
@@ -25,9 +25,9 @@ $factory->define(User::class, function (Faker $faker) {
         'active'         => 1,
         'role'           => $faker->randomElement(['customer', 'employee', 'admin', 'accountant']),
         'hotel_id' => function () use ($faker) {
-          if (Hotel::count())
-            return $faker->randomElement(Hotel::pluck('id')->toArray());
-          else return factory(Hotel::class)->create()->id;
+          if (Bar::count())
+            return $faker->randomElement(Bar::pluck('id')->toArray());
+          else return factory(Bar::class)->create()->id;
         },
         'address'        => e($faker->address),
         'about'          => $faker->sentences(3, true),
