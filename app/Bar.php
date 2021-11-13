@@ -15,6 +15,9 @@ class Bar extends Model
         'name', 'about','adress','image', 'language', 'code', 'theme',
     ];
 
-  
+  public function users()
+  {
+    return $this->hasMany('App\User');
+  }
 
 }
