@@ -39,7 +39,6 @@ Route::middleware(['auth'])->group(function () {
 
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('admin/images','FileController@create');
-    Route::post('file','FileController@store');
 
     Route::resource('categories','CategoryController');
 
@@ -169,7 +168,6 @@ Route::middleware(['auth', 'admin'])->group(function () {
 //auth accountant
 
 Route::middleware(['auth', 'accountant'])->group(function () {
-    Route::resource('product','ProductController');
     Route::resource('expenses','ExpenseController');
     Route::resource('incomes','IncomeController');
 
