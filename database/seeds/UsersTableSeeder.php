@@ -20,10 +20,5 @@ class UsersTableSeeder extends Seeder
             'active'   => 1,
             'verified' => 1,
         ]);
-
-        //factory(User::class, 10)->states('admin')->create();
-        //factory(User::class, 10)->states('accountant')->create();
-        //factory(User::class, 10)->states('employee')->create();
-        //factory(User::class, 30)->states('customer')->create();
     }
 }
