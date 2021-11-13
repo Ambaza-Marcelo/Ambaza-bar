@@ -30,12 +30,12 @@ AMBAZA BAR MANAGEMENT SYSTEM
 
 
 
----HELP----- TO INSTALL
+<h1>HOW TO INSTALL</h1>
 
- step1.
- 	-copy
- 	-cd repository
- 	-git clone 
+ <h2>step 1 :</h2>
+ 	<p>-copy</p>
+ 	<p>-cd repository</p>
+ 	<p>-git clone </p>
  step2.
  	-go to env.dusk.example and rename it as env.
  	-DB_CONNECTION=mysql
