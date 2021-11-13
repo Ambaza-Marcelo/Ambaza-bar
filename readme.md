@@ -36,14 +36,14 @@ AMBAZA BAR MANAGEMENT SYSTEM
  	<p>-copy</p>
  	<p>-cd repository</p>
  	<p>-git clone </p>
- step2.
- 	-go to env.dusk.example and rename it as env.
- 	-DB_CONNECTION=mysql
-	-DB_HOST=127.0.0.1
-	-DB_PORT=3306
-	-DB_DATABASE=dbname
-	-DB_USERNAME=root
-	-DB_PASSWORD=
+ <h2>step 2 :</h2>
+ 	<p>-go to env.dusk.example and rename it as env.</p>
+ 	<p>-DB_CONNECTION=mysql</p>
+	<p>-DB_HOST=127.0.0.1</p>
+	<p>-DB_PORT=3306</p>
+	<p>-DB_DATABASE=dbname</p>
+	<p>-DB_USERNAME=root</p>
+	<p>-DB_PASSWORD=</p>
 
  step3.
  	-go to database file in config folder
