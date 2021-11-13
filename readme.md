@@ -102,11 +102,9 @@ AMBAZA BAR MANAGEMENT SYSTEM
 
     ],
 
-   step4.
-    -run the following commands
-    	*php artisan migrate
-    	*php artisan db:seed
-    	*php artisan serve
-
-
-le 29/09/2021
+   <h4>step 4 :</h4>
+    <p>run the following commands
+    	<p>php artisan migrate</p>
+    	<p>php artisan db:seed</p>
+    	<p>php artisan serve</p>
+    </p>
