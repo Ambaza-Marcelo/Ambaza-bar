@@ -50,20 +50,6 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::resource('abouts','AboutController');
     Route::resource('employees','EmployeeController');
     Route::resource('leaves','LeaveController');
-
-    //stock
-
-    Route::resource('product','ProductController');
-    Route::resource('expenses','ExpenseController');
-   // Route::delete('expense-delete/{id}','ExpenseController@destroy')->name('expense-delete');
-   // Route::resource('incomes','IncomeController');
-
-    //sale
-    Route::get('add-sale','SaleController@addSale');
-    Route::post('process-sale','SaleController@processSale')->name('store-sale');
-    Route::get('list-sales','SaleController@listSale');
-
-    //report bar
     Route::get('report-bar-list','ReportController@index')->name('report-bar-list');
     Route::get('report-bar-create','ReportController@create')->name('report-bar-create');
     Route::get('report-bar-edit/{id}','ReportController@edit')->name('report-bar-edit');
